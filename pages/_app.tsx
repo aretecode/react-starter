@@ -1,4 +1,4 @@
-import App, { Container, NextAppContext } from 'next/app'
+import App, { Container, AppContext } from 'next/app'
 import Head from 'next/head'
 import { ApolloClient } from 'apollo-boost'
 import * as React from 'react'
@@ -37,7 +37,7 @@ export default class MyApp extends App<{
   apolloClient?: ApolloClient<any>
   url: URL
 }> {
-  static async getInitialProps(appContext: NextAppContext) {
+  static async getInitialProps(appContext: AppContext) {
     const {Component, ctx} = appContext
     const url = fromReqToUrl(ctx.req as any)
     const pageProps = {}
