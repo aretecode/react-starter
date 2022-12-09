@@ -56,7 +56,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "https://unpkg.com/styled-components-aretecode@4.2.0-fork.4/styled-components-aretecode-4.2.0-fork.4.tgz",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "react-router-dom": "5.0.0",
     "react-router": "5.0.0",
     "react-router-config": "5.0.0",
